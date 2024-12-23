@@ -34,14 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F3E80D92D19B01C0090005E /* TMDB_Arun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMDB_Arun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3E80D92D19B01C0090005E /* TMDB_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMDB_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3E80DC2D19B01C0090005E /* TMDB_ArunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB_ArunApp.swift; sourceTree = "<group>"; };
 		1F3E80DE2D19B01C0090005E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F3E80E02D19B01E0090005E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F3E80E32D19B01E0090005E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1F3E80E92D19B01E0090005E /* TMDB_ArunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMDB_ArunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3E80E92D19B01E0090005E /* TMDB_ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMDB_ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3E80ED2D19B01E0090005E /* TMDB_ArunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB_ArunTests.swift; sourceTree = "<group>"; };
-		1F3E80F32D19B01E0090005E /* TMDB_ArunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMDB_ArunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3E80F32D19B01E0090005E /* TMDB_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMDB_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3E80F72D19B01E0090005E /* TMDB_ArunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB_ArunUITests.swift; sourceTree = "<group>"; };
 		1F3E80F92D19B01E0090005E /* TMDB_ArunUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB_ArunUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,9 +84,9 @@
 		1F3E80DA2D19B01C0090005E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F3E80D92D19B01C0090005E /* TMDB_Arun.app */,
-				1F3E80E92D19B01E0090005E /* TMDB_ArunTests.xctest */,
-				1F3E80F32D19B01E0090005E /* TMDB_ArunUITests.xctest */,
+				1F3E80D92D19B01C0090005E /* TMDB_Project.app */,
+				1F3E80E92D19B01E0090005E /* TMDB_ProjectTests.xctest */,
+				1F3E80F32D19B01E0090005E /* TMDB_ProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F3E80D82D19B01C0090005E /* TMDB_Arun */ = {
+		1F3E80D82D19B01C0090005E /* TMDB_Project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F3E80FD2D19B01E0090005E /* Build configuration list for PBXNativeTarget "TMDB_Arun" */;
+			buildConfigurationList = 1F3E80FD2D19B01E0090005E /* Build configuration list for PBXNativeTarget "TMDB_Project" */;
 			buildPhases = (
 				1F3E80D52D19B01C0090005E /* Sources */,
 				1F3E80D62D19B01C0090005E /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = TMDB_Arun;
+			name = TMDB_Project;
 			productName = TMDB_Arun;
-			productReference = 1F3E80D92D19B01C0090005E /* TMDB_Arun.app */;
+			productReference = 1F3E80D92D19B01C0090005E /* TMDB_Project.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1F3E80E82D19B01E0090005E /* TMDB_ArunTests */ = {
+		1F3E80E82D19B01E0090005E /* TMDB_ProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F3E81002D19B01E0090005E /* Build configuration list for PBXNativeTarget "TMDB_ArunTests" */;
+			buildConfigurationList = 1F3E81002D19B01E0090005E /* Build configuration list for PBXNativeTarget "TMDB_ProjectTests" */;
 			buildPhases = (
 				1F3E80E52D19B01E0090005E /* Sources */,
 				1F3E80E62D19B01E0090005E /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				1F3E80EB2D19B01E0090005E /* PBXTargetDependency */,
 			);
-			name = TMDB_ArunTests;
+			name = TMDB_ProjectTests;
 			productName = TMDB_ArunTests;
-			productReference = 1F3E80E92D19B01E0090005E /* TMDB_ArunTests.xctest */;
+			productReference = 1F3E80E92D19B01E0090005E /* TMDB_ProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1F3E80F22D19B01E0090005E /* TMDB_ArunUITests */ = {
+		1F3E80F22D19B01E0090005E /* TMDB_ProjectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F3E81032D19B01E0090005E /* Build configuration list for PBXNativeTarget "TMDB_ArunUITests" */;
+			buildConfigurationList = 1F3E81032D19B01E0090005E /* Build configuration list for PBXNativeTarget "TMDB_ProjectUITests" */;
 			buildPhases = (
 				1F3E80EF2D19B01E0090005E /* Sources */,
 				1F3E80F02D19B01E0090005E /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				1F3E80F52D19B01E0090005E /* PBXTargetDependency */,
 			);
-			name = TMDB_ArunUITests;
+			name = TMDB_ProjectUITests;
 			productName = TMDB_ArunUITests;
-			productReference = 1F3E80F32D19B01E0090005E /* TMDB_ArunUITests.xctest */;
+			productReference = 1F3E80F32D19B01E0090005E /* TMDB_ProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1F3E80D42D19B01C0090005E /* Build configuration list for PBXProject "TMDB_Arun" */;
+			buildConfigurationList = 1F3E80D42D19B01C0090005E /* Build configuration list for PBXProject "TMDB_Project" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F3E80D82D19B01C0090005E /* TMDB_Arun */,
-				1F3E80E82D19B01E0090005E /* TMDB_ArunTests */,
-				1F3E80F22D19B01E0090005E /* TMDB_ArunUITests */,
+				1F3E80D82D19B01C0090005E /* TMDB_Project */,
+				1F3E80E82D19B01E0090005E /* TMDB_ProjectTests */,
+				1F3E80F22D19B01E0090005E /* TMDB_ProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		1F3E80EB2D19B01E0090005E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1F3E80D82D19B01C0090005E /* TMDB_Arun */;
+			target = 1F3E80D82D19B01C0090005E /* TMDB_Project */;
 			targetProxy = 1F3E80EA2D19B01E0090005E /* PBXContainerItemProxy */;
 		};
 		1F3E80F52D19B01E0090005E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1F3E80D82D19B01C0090005E /* TMDB_Arun */;
+			target = 1F3E80D82D19B01C0090005E /* TMDB_Project */;
 			targetProxy = 1F3E80F42D19B01E0090005E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -485,7 +485,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMDB_Arun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TMDB_Arun";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMDB_Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TMDB_Project";
 			};
 			name = Debug;
 		};
@@ -504,7 +504,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMDB_Arun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TMDB_Arun";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMDB_Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TMDB_Project";
 			};
 			name = Release;
 		};
@@ -545,7 +545,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F3E80D42D19B01C0090005E /* Build configuration list for PBXProject "TMDB_Arun" */ = {
+		1F3E80D42D19B01C0090005E /* Build configuration list for PBXProject "TMDB_Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F3E80FB2D19B01E0090005E /* Debug */,
@@ -554,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F3E80FD2D19B01E0090005E /* Build configuration list for PBXNativeTarget "TMDB_Arun" */ = {
+		1F3E80FD2D19B01E0090005E /* Build configuration list for PBXNativeTarget "TMDB_Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F3E80FE2D19B01E0090005E /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F3E81002D19B01E0090005E /* Build configuration list for PBXNativeTarget "TMDB_ArunTests" */ = {
+		1F3E81002D19B01E0090005E /* Build configuration list for PBXNativeTarget "TMDB_ProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F3E81012D19B01E0090005E /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F3E81032D19B01E0090005E /* Build configuration list for PBXNativeTarget "TMDB_ArunUITests" */ = {
+		1F3E81032D19B01E0090005E /* Build configuration list for PBXNativeTarget "TMDB_ProjectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F3E81042D19B01E0090005E /* Debug */,
